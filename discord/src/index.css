@@ -1,0 +1,106 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  background-color: rgb(36, 93, 235);
+}
+
+.navbar{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width:200px;
+  height: auto;
+}
+
+.menu-icon{
+  width: 50px;
+  height: auto;
+}
+
+
+.headline{
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  text-align: left;
+  max-width: 600px; 
+}
+
+.text{
+  margin: 20px;
+  font-family:'Roboto', sans-serif;;
+  font-size: 32px;
+  text-align: left;
+  max-width: 1000px; 
+}
+
+.button-container{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+.button1{
+  background-color:aliceblue;
+  color:black;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button2{
+  background-color:black;
+  color:white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.landing-page {
+  position: relative;
+  overflow: hidden;
+}
+.background{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+ 
+}
+
+.background-img{
+  width: 50%; 
+  height: auto; 
+}
+
+
+
